@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body class="bg-gray-600">
+ <!-- tailwindcss -->
+ <section>
+        <nav class="flex justify-between bg-black items-center px-10 text-white  h-20 mt-10">
+            <div class=" flex items-center">
+       <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg" alt="" class="h-5 rounded-3xl">
+           <span>tailwindcss</span>
+        </div>
+           <ul class="flex items-center h-full gap-5 hidden md:flex">
+            <li> Docs</li>
+            <li>  Components</li>
+            <li>Blog</li>
+            <li>Showcase</li>
+         <li> <button class="active:bg-blue-400"><i class="fa-solid fa-moon" style="color:aliceblue;"></i></button></li>
+        <li><i class="fa-brands fa-github"></i></li>
+           </ul>
+           <i class="fa-solid fa-magnifying-glass md:hidden"></i>
+           <i class="fa-solid fa-ellipsis-vertical md:hidden"></i>
+        </nav>
+
+    </section>
+        <!-- ikea -->
+       <section class="w-full h-28 ">
+            <nav class="bg-white h-28 mt-20 flex items-center px-12">
+                <div class="flex gap-6 w-1/2 ml-10">
+                    <img src="https://www.ikea.com/in/en/static/ikea-logo.f7d9229f806b59ec64cb.svg" alt="">
+
+                    <form class="border px-4 bg-gray-200 flex items-center flex-grow rounded-full gap-2 h-12 hidden md:flex">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" name="text" placeholder="what are you looking for?" class="h-full w-full flex bg-gray-200 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.827 6.175A2.31 2.31 0 0 1 5.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 0 0-1.134-.175 2.31 2.31 0 0 1-1.64-1.055l-.822-1.316a2.192 2.192 0 0 0-1.736-1.039 48.774 48.774 0 0 0-5.232 0 2.192 2.192 0 0 0-1.736 1.039l-.821 1.316Z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 12.75a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0ZM18.75 10.5h.008v.008h-.008V10.5Z" />
+                          </svg>
+                          
+                    </form>
+                </div>
+                    <!-- right -->
+                    <div class="flex items-center gap-10 text-sm">
+                        <div class="flex gap-2 hidden md:flex"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                          </svg>
+                          
+                            <span>Enter postal code</span>
+                        </div>
+                        <div class="gap-2 flex hidden md:flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+                              </svg>
+                              <span>Select Store</span>
+                        
+                    </div>
+                     <div class="flex gap-6 border-[2px] rounded-full  hover:bg-blue-400 h-10 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                          </svg>
+                          
+                        <span class="hidden md:flex">
+                            Hej! Log in or Sign up
+                        </span>
+                     </div>
+                     <div class="gap-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                          </svg>
+                          
+                     </div>
+                     <div>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                              </svg>
+                              
+                        </span>
+                     </div>
+                     <i class="fa-solid fa-bars md:hidden gap-2"></i>
+                    
+                </div>
+               
+            </nav>
+                          
+        </section> 
+
+        <!---------nykaa ------------>
+<section class="w-full h-28  ">
+    <nav class="bg-white h-28 w-full mt-20 flex items-center px-14  justify-between">
+     <!-- left -->
+        <div class="flex gap-10 ">
+<img src="data:image/png;base64,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" class="h-22 w-20">
+<ul class="flex items-center gap-10 font-semibold hidden md:flex">
+    <li>Categories</li>
+    <li>Brand</li>
+    <li>Nykaa Fashion</li>
+    <li>Beauty Advice</li>
+    
+</ul>
+        </div >
+        <!-- right -->
+        <div class="flex ">
+       <div class=" gap-3 flex ">
+            <form  class="border px-8 flex items-center flex-grow  gap-2 h-12 bg-gray-200 hidden md:flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                  <input type="text" name="text" placeholder="Search on Nykaa"class="h-full w-full flex bg-gray-200  ">    
+</form>
+<button class="bg-pink-500 px-9 py-2 text-white flex justify-center items-center font-semibold text-lg active:bg-pink-600 rounded-2xl">Sign Up</button>
+</div>
+<div class="flex items-center gap-6 ml-10">
+    
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg> -->
+
+        <button class="h-8 w-8 text-lg"> <i class="fa-solid fa-bag-shopping"></i></button> 
+   
+ </div>        
+</div>
+<i class="fa-solid fa-bars"></i>
+    </nav>
+</section>
+</body>
+</html>
